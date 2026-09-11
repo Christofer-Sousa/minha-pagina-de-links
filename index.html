@@ -15,15 +15,15 @@
 <body class="min-h-screen bg-zinc-950 text-zinc-50">
 
     <main class="w-full flex flex-col gap-3 mx-auto px-4 m-4">
-
+        <!---CABEÇALHO-->
         <header
-            class="w-[350px] mx-auto md:w-[400px] md:mx-auto h-16 flex items-center justify-between bg-blue-900/20 border rounded-lg p-3 border-zinc-800">
+            class="w-[350px] mx-auto md:w-[400px] md:mx-auto h-16 flex items-center justify-between bg-blue-900/20 border rounded-xl p-3 border-zinc-800">
             <div class="logo text-2xl">Christofer<span class="text-blue-600 text-bold">.dev</span></div>
             <div id="hamburguer" class="self-end text-4xl">&#8801;</div>
         </header>
 
         <section class="infos w-full flex flex-col items-center gap-2 mb-4">
-            <div class="border border-blue-600 rounded-full"> <img class="w-32 border border-blue-600/90 rounded-full" src="./assests/christofer.jpeg"
+            <div class="border border-blue-600 rounded-full"> <img class="w-32 border border-blue-600/90 rounded-full hover:border-2" src="./assests/christofer.jpeg"
                     alt="Christofer Sousa dev"></div>
             <div class="dev-infos text-center flex flex-col gap-2">
                 <h2 class="text-xl">Christofer Sousa</h2>
@@ -35,38 +35,41 @@
 
             </div>
         </section>
-
+        <!---LINKS DA PAGINA-->
         <section class="links-container w-full flex flex-col items-center gap-2 mb-4">
 
             <div class="links w-[400px] flex flex-col gap-3">
 
                 <div class="link w-[350px] mx-auto">
-                    <a href="https://www.linkedin.com/in/christofer-sousa/" class="flex items-center justify-between border-none p-3 rounded-lg bg-blue-900/30 ">
+                    <a href="https://www.linkedin.com/in/christofer-sousa/" target="_blank" 
+                    class="flex items-center justify-between border-none p-3 rounded-xl bg-blue-900/30 hover:bg-blue-900/50 transition">
                         <div class="w-10 flex items-center justify-center mr-4"><i
                                 class="text-2xl fa-brands fa-linkedin-in"></i></div>
                         <div class="flex-1">
                             <p>Linkedin</p>
-                            <p class="text-sm text-zinc-400">Vamos nos conectar</p>
+                            <p class="text-sm text-zinc-400">Conecte-se comigo e acompanhe</p>
                         </div>
-                        <div class="w-10">&#10148;</div>
+                        <div class="w-10 hover:translate-x-2 transition">&#10148;</div>
                     </a>
                 </div>
             </div>
 
             <div class="link w-[350px] mx-auto">
-                <a href="https://github.com/Christofer-Sousa" class="flex items-center justify-between border-none p-3 rounded-lg bg-blue-900/30 ">
+                <a href="https://github.com/Christofer-Sousa" target="_blank" 
+                class="flex items-center justify-between border-none p-3 rounded-xl bg-blue-900/30 hover:bg-blue-900/50 transition">
                     <div class="w-10 flex items-center justify-center mr-4"><i class="text-2xl fa-brands fa-github"></i>
                     </div>
                     <div class="flex-1">
                         <p>Github</p>
                         <p class="text-sm text-zinc-400">Veja meus projetos e códigos</p>
                     </div>
-                    <div class="w-10">&#10148;</div>
+                    <div class="w-10 hover:translate-x-2 transition">&#10148;</div>
                 </a>
             </div>
 
             <div class="link w-[350px] mx-auto">
-                <a href="https://www.instagram.com/ochris.js/" target="_blank" class="flex items-center justify-between border-none p-3 rounded-lg bg-blue-900/30 ">
+                <a href="https://www.instagram.com/ochris.js/" target="_blank" 
+                class="flex items-center justify-between border-none p-3 rounded-xl bg-blue-900/30 hover:bg-blue-900/50 transition">
                     <div class="w-10 flex items-center justify-center mr-4"><i
                             class="text-2xl fa-brands fa-instagram"></i>
                     </div>
@@ -74,12 +77,13 @@
                         <p>Instagram</p>
                         <p class="text-sm text-zinc-400">Acompanhe meu dia a dia</p>
                     </div>
-                    <div class="w-10">&#10148;</div>
+                    <div class="w-10 hover:translate-x-2 transition">&#10148;</div>
                 </a>
             </div>
 
             <div class="link w-[350px] mx-auto">
-                <a href="mailto:christofersousa.js@gmail.com" class="flex items-center justify-between border-none p-3 rounded-lg bg-blue-900/30 ">
+                <a href="mailto:christofersousa.js@gmail.com" target="_blank" 
+                class="flex items-center justify-between border-none p-3 rounded-xl bg-blue-900/30 hover:bg-blue-900/50 transition">
                     <div class="w-10 flex items-center justify-center mr-4"><i
                             class="text-2xl fa-solid fa-envelope"></i>
                     </div>
@@ -87,19 +91,19 @@
                         <p>E-mail</p>
                         <p class="text-sm text-zinc-400">Entre em contato</p>
                     </div>
-                    <div class="w-10">&#10148;</div>
+                    <div class="w-10 hover:translate-x-2 transition">&#10148;</div>
                 </a>
             </div>
 
             <div class="link w-[350px] mx-auto">
-                <a href="./projetos" class="flex items-center justify-between border-none p-3 rounded-lg bg-blue-900">
+                <a href="./projetos.html" class="flex items-center justify-between border-none p-3 rounded-xl bg-blue-900 hover:bg-blue-800/50 transition">
                     <div class="w-10 flex items-center justify-center mr-4"><i class="text-2xl fa-solid fa-folder"></i>
                     </div>
                     <div class="flex-1">
                         <p>Meus projetos</p>
                         <p class="text-sm text-zinc-400">Veja meus projetos principais</p>
                     </div>
-                    <div class="w-10">&#10148;</div>
+                    <div class="w-10 hover:translate-x-2 transition">&#10148;</div>
                 </a>
             </div>
 
@@ -107,19 +111,20 @@
 
         </section>
 
+        <!---RODAPÉ-->
         <footer
-            class="w-[350px] mx-auto flex flex-col gap-3 items-center bg-blue-900/20 border rounded-lg p-3 border-zinc-800 md:w-[400px] md:mx-auto md:text-center">
+            class="w-[350px] mx-auto flex flex-col gap-3 items-center bg-blue-900/20 border rounded-xl p-3 border-zinc-800 md:w-[400px] md:mx-auto md:text-center">
             <p class="text-center text-sm text-zinc-400">"Se você tentar, nenhuma montanha é difícil demais para escalar."</p>
 
             <div class="icons flex gap-4">
-                <div class="icon"><a href="https://github.com/Christofer-Sousa"><i class="text-2xl md:text-xl fa-brands fa-github"></i></a></i></div>
-                <div class="icon"><a href="https://www.linkedin.com/in/christofer-sousa/"><i class="text-2xl md:text-xl fa-brands fa-linkedin-in"></i></a></div>
-                <div class="icon"><a href="https://www.instagram.com/ochris.js/"><i class="text-2xl md:text-xl fa-brands fa-instagram"></i></a></div>
-                <div class="icon"><a href="mailto:christofersousa.js@gmail.com"><i class="text-2xl md:text-xl fa-solid fa-envelope"></i></a></div>
+                <div class="icon"><a href="https://github.com/Christofer-Sousa"><i class="text-2xl md:text-xl fa-brands fa-github hover:text-zinc-400 transition"></i></a></i></div>
+                <div class="icon"><a href="https://www.linkedin.com/in/christofer-sousa/"><i class="text-2xl md:text-xl fa-brands fa-linkedin-in hover:text-zinc-400 transition"></i></a></div>
+                <div class="icon"><a href="https://www.instagram.com/ochris.js/"><i class="text-2xl md:text-xl fa-brands fa-instagram hover:text-zinc-400 transition"></i></a></div>
+                <div class="icon"><a href="mailto:christofersousa.js@gmail.com"><i class="text-2xl md:text-xl fa-solid fa-envelope hover:text-zinc-400 transition"></i></a></div>
             </div>
 
             <div>
-                <p class="text-sm text-zinc-400">Feito por <a class="text-blue-600" href="https://www.linkedin.com/in/christofer-sousa/">Christofer Sousa</a></p>
+                <p class="text-sm text-zinc-400">Feito por <a class="text-blue-600 hover:underline" href="https://www.linkedin.com/in/christofer-sousa/">Christofer Sousa</a></p>
             </div>
         </footer>
     </main>
