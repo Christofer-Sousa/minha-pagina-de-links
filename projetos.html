@@ -11,68 +11,70 @@
     <title>Christofer Sousa | Projetos</title>
 </head>
 
-<body class="p-4 min-h-screen bg-zinc-950 text-zinc-50 flex items-center flex-col">
+<body class="p-1 md:p-2 min-h-screen bg-zinc-950 text-zinc-50 flex items-center flex-col">
     <!---CABEÇALHO-->
-    <header class="w-full h-16 flex items-center justify-between bg-blue-900/20 border rounded-xl p-3 border-zinc-800">
-        <div class="logo text-2xl">Christofer<span class="text-blue-600 text-bold">.dev</span></div>
-        <div id="hamburguer" class="self-end text-4xl">&#8801;</div>
+    <header class="w-full max-w-[1200px] mx-auto md:max-w-full md:mx-auto h-16 md:h-20 flex items-center md:items-center justify-between bg-blue-900/20 border rounded-xl p-3 border-zinc-800 mb-3">
+        <div class="logo text-xl md:text-3xl"><a href="./index.html">Christofer<span class="text-blue-600 font-bold">.dev</span></a></div>
+        <div class="self-end text-2xl md:text-4xl md:self-center"><a target="_blank" href="https://github.com/Christofer-Sousa"><i class="fa-brands fa-github"></i></a></div>
     </header>
 
     <!--PROJETOS-->
-    <main class="w-full flex items-center flex-col gap-3 m-3">
-        <div class="self-start mb-2">
-            <h1 class="text-3xl font-bold mb-1">Meus projetos</h1>
-            <p class="text-sm text-blue-400/60">Confira alguns dos projetos que desenvolvi</p>
+    <main class="w-full max-w-[350px] lg:max-w-[1280px] mx-auto md:max-w-full md:mx-auto flex items-center flex-col gap-3 md:max-w-[580px] md:mx-auto">
+        <div class="self-start md:p-3 p-1">
+            <h1 class="text-3xl md:text-4xl font-bold mb-1">Meus projetos</h1>
+            <p class="text-sm md:text-2xl text-blue-400/60">Confira alguns dos projetos que desenvolvi</p>
         </div>
+        
         <!--SECTION DE CARDS-->
-        <section class="flex items-center flex-col bg-blue-900/50 rounded-xl p-3">
+        <section class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 bg-zinc-950 rounded-xl p-3 gap-3">
 
-            <div class="card flex flex-col gap-4 rounded-xl mb-10 bg-zinc-900/60 p-3">
-                <div><img class="rounded-xl" src="./assests/quanto-me-custa-banner.png" alt=""></div>
+<!--CARD 1-->
+            <div class="card flex flex-col gap-3 md:gap-5 rounded-xl md:justify-around bg-zinc-900/60 p-3">
+                <div class="self-center"><img class="rounded-xl w-45 h-45" src="./assests/quanto-me-custa-banner.png" alt=""></div>
 
                 <div>
-                    <h2 class="text-2xl font-bold">Quanto me custa?</h2>
-                    <p class="text-sm text-zinc-400">Dinheiro volta. O seu tempo não.</p>
+                    <h2 class="text-1xl md:text-4xl font-bold">Quanto me custa?</h2>
+                    <p class="text-xs md:text-xl text-zinc-400">Dinheiro volta. O seu tempo não.</p>
                 </div>
 
-                <div class="w-full flex items-center jstify-between gap-2">
-                    <span class="text-sm p-2 bg-blue-400/20 rounded-lg">HTML5</span>
-                    <span class="text-sm p-2 bg-blue-400/20 rounded-lg">JavaScript</span>
-                    <span class="text-sm p-2 bg-blue-400/20 rounded-lg">TAILWIND</span>
-                    <span class="ml-10"><a class="text-2xl" target="_blank" href="https://christofer-sousa.github.io/quanto-me-custa/">&#8599;</a></span>
+                <div class="w-full flex items-center justify-around gap-1">
+                    <span class="text-xs md:text-lg p-2 bg-blue-400/20 rounded-lg">HTML5</span>
+                    <span class="text-xs md:text-lg p-2 bg-blue-400/20 rounded-lg">JavaScript</span>
+                    <span class="text-xs md:text-lg p-2 bg-blue-400/20 rounded-lg">TAILWIND</span>
+                    <span class="mx-1"><a class="text-2xl" target="_blank" href="https://christofer-sousa.github.io/quanto-me-custa/">&#8599;</a></span>
+                </div>
+            </div>
+<!--CARD 2-->
+            <div class="card flex flex-col gap-4 md:gap-5 rounded-xl md:justify-around bg-zinc-900/60 p-3">
+                <div class="self-center"><img class="rounded-xl w-45 h-45" src="./assests/rick-morty-API.png" alt=""></div>
+
+                <div>
+                    <h2 class="text-1xl md:text-4xl font-bold">Rick and Morty API</h2>
+                    <p class="text-xs md:text-xl text-zinc-400">Personagens da série com uma interface supimpa</p>
+                </div>
+
+                <div class="w-full flex items-center justify-around gap-1">
+                    <span class="text-xs md:text-lg p-2 bg-blue-400/20 rounded-lg">HTML5</span>
+                    <span class="text-xs md:text-lg p-2 bg-blue-400/20 rounded-lg">JavaScript</span>
+                    <span class="text-xs md:text-lg p-2 bg-blue-400/20 rounded-lg">TAILWIND</span>
+                    <span class="mx-1"><a class="text-2xl" target="_blank" href="https://christofer-sousa.github.io/Rick-And-Morty-Universe-API/">&#8599;</a></span>
                 </div>
             </div>
 
-            <div class="card flex flex-col gap-4 rounded-xl mb-10 bg-zinc-900/60 p-3">
-                <div><img class="rounded-xl" src="./assests/rick-morty-API.png" alt=""></div>
+<!--CARD 3-->
+            <div class="card flex flex-col gap-4 md:gap-5 rounded-xl md:justify-around bg-zinc-900/60 p-3">
+                <div class="self-center"><img class="rounded-xl w-45 h-45" src="./assests/calc-imc.png" alt=""></div>
 
                 <div>
-                    <h2 class="text-2xl font-bold">Rick and Morty API</h2>
-                    <p class="text-sm text-zinc-400">Personagens da série com uma interface supimpa</p>
+                    <h2 class="text-1xl md:text-4xl font-bold">Calculadora de IMC</h2>
+                    <p class="text-xs md:text-xl text-zinc-400">Uma classica e informativa</p>
                 </div>
 
-                <div class="w-full flex items-center jstify-between gap-2">
-                    <span class="text-sm p-2 bg-blue-400/20 rounded-lg">HTML5</span>
-                    <span class="text-sm p-2 bg-blue-400/20 rounded-lg">JavaScript</span>
-                    <span class="text-sm p-2 bg-blue-400/20 rounded-lg">TAILWIND</span>
-                    <span class="ml-10"><a class="text-2xl" target="_blank" href="https://christofer-sousa.github.io/Rick-And-Morty-Universe-API/">&#8599;</a></span>
-                </div>
-            </div>
-
-
-            <div class="card flex flex-col gap-4 rounded-xl mb-10 bg-zinc-900/60 p-3">
-                <div><img class="rounded-xl" src="./assests/calc-imc.png" alt=""></div>
-
-                <div>
-                    <h2 class="text-2xl font-bold">Calculadora de IMC?</h2>
-                    <p class="text-sm text-zinc-400">Uma classica e informativa</p>
-                </div>
-
-                <div class="w-full flex items-center justify-between gap-2">
-                    <span class="text-sm p-2 bg-blue-400/20 rounded-lg">HTML5</span>
-                    <span class="text-sm p-2 bg-blue-400/20 rounded-lg">JavaScript</span>
-                    <span class="text-sm p-2 bg-blue-400/20 rounded-lg">CSS</span>
-                    <span class="ml-10 self-end"><a class="text-2xl" target="_blank" href="https://github.com/Christofer-Sousa/calc-imc">&#8599;</a></span>
+                <div class="w-full flex items-center justify-around gap-2">
+                    <span class="text-xs md:text-lg p-2 bg-blue-400/20 rounded-lg">HTML5</span>
+                    <span class="text-xs md:text-lg p-2 bg-blue-400/20 rounded-lg">JavaScript</span>
+                    <span class="text-xs md:text-lg p-2 bg-blue-400/20 rounded-lg">CSS</span>
+                    <span class="mx-1 self-end"><a class="text-2xl" target="_blank" href="https://github.com/Christofer-Sousa/calc-imc">&#8599;</a></span>
                 </div>
             </div>
 
@@ -80,7 +82,7 @@
         </section>
 
         <footer>
-            <p class="text-zinc-400">Em breve muito mais projetos...</p>
+            <p class="text-zinc-400 text-base md:text-1xl">Em breve muito mais projetos...</p>
         </footer>
 
     </main>
